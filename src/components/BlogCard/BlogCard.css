@@ -18,6 +18,7 @@
   width: 100%;
   height: 288px;
   border-radius: 8px 8px 0 0;
+  object-fit: fill;
 }
 
 .blog-card-content {
@@ -27,7 +28,7 @@
 }
 
 .blog-card-badge {
-  outline: 1px solid #bbf7d0;
+  border: 1px solid #bbf7d0;
   background-color: #f0fdf4;
   padding: 0 8px;
   border-radius: 16px;
@@ -58,6 +59,7 @@
   align-items: center;
   width: fit-content;
   cursor: pointer;
+  font-weight: 500;
 
   &:hover{
     color: #3730A3;
